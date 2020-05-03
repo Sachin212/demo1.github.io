@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-size:24px;
+}
+
+/*Header*/
+.headr{
+	position: relative;
+	background-image: linear-gradient(lightblue, pink);
+	height:60px;
+}
+.headr a{
+	position: absolute;
+	margin: 15px;
+	height: 30px;
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #1391bf;
+}/*End Of Header*/
+
+/*Selector*/
+.display{
+	height: 500px;
+	background-image: linear-gradient(purple, pink);
+	position:relative;
+}
+.button{
+	float: left;
+	padding: 15px;
+	background-color:#f1f1f1;
+	border:none;
+	color:black;
+	cursor: pointer;
+	text-align: center;
+	text-shadow: none;
+	width:10%;
+}
+.active {
+	background-color: black;
+	opacity: 0.8;
+	color:white;
+}
+.button:hover{
+	color: green;
+}/*End Of Selector*/
+
+/*Start Of Body*/
+.jambo{
+	background-color: black;
+}
+.pic{
+	width: 25%;
+	float: left;
+}
+div > img:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.pic img{
+	margin: 10px;
+	width: 90%
+}
+
+
+
+/*Responsive Media*/
+/*Media Of Selector*/
+@media (min-width: 768px) and (max-width: 992px) {
+.button{
+	width: 20%;
+}
+.pic{
+	width:33.3%;
+}
+}
+
+@media (max-width: 767px){
+	.button{
+		width:25%;
+	}
+	.pic{
+		width:50%;
+	}
+}
+/*End Of Selector*/
+
+/*
+adding class
+removing class
+adding div 
+removing div
+/*https://images.wallpaperscraft.com/image/abstraction_light_neon_glitter_97687_1280x720.jpg
+https://images.wallpaperscraft.com/image/triangle_shape_dark_figure_88540_1280x720.jpg
+https://images.wallpaperscraft.com/image/sky_light_abstraction_85064_1280x1024.jpg
+https://images.wallpaperscraft.com/image/background_bright_light_splinters_85568_1280x720.jpg
+https://images.wallpaperscraft.com/image/dragon_pattern_neon_shadows_39054_1600x1200.jpg
+https://images.wallpaperscraft.com/image/angel_light_field_83493_1600x1200.jpg
+https://images.wallpaperscraft.com/image/background_bright_light_splinters_85568_1600x1200.jpg
